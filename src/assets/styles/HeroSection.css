@@ -1,0 +1,257 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Manrope', sans-serif;
+
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* .hero-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.hero-content {
+  flex-grow: 1;
+ margin-top: 8% !important;
+}
+.hero-text {
+  text-align: center; /* Centers text elements inside */
+}
+
+
+.hero-title {
+  font-weight: 600 !important;
+  font-size: 48px !important;
+  text-transform: capitalize !important;
+}
+.hero-title-bottom {
+  font-weight: 600 !important;
+  font-size: 44px !important;
+  text-transform: capitalize !important;
+  line-height: 50px !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+
+}
+.hero-title-first{
+  font-family: 'Manrope', sans-serif !important;
+font-weight: 600 !important;
+font-size: 20px !important;
+text-transform: capitalize !important;
+}
+.hero-subtitle {
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.hero-btn {
+  margin-top: 2rem !important;
+  background-color: black !important;
+  border-radius: 30px !important;
+  color: white !important;
+  padding: 0.75rem 2rem;
+  text-transform: capitalize !important;
+}
+
+/* Bottom Left Content */
+.bottom-left-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  padding: 15px 30px; /* Adjust padding for better spacing */
+  border-top: 1px solid rgba(255, 255, 255, 0.687); /* Full-width top border */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+}
+.premium-heading{
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 600 !important;
+  font-size:23px !important;
+}
+
+.padding-around{
+  padding: 32px !important;
+}
+
+.Who-heading{
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 600 !important;
+  font-size:30px !important;
+  color: rgba(255, 255, 255, 0.799);
+}
+.Who-subheading{
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+
+  color: rgba(255, 255, 255, 0.532);
+}
+.contact-subheading{
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+
+  color: rgba(255, 255, 255, 0.532);
+}
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+  
+.hero-title {
+  font-size: 33px !important;
+}
+.hero-title-bottom {
+  font-size: 25px !important;
+  line-height: 30px !important;
+
+
+}
+.hero-title-first{
+font-weight: 600 !important;
+font-size: 20px !important;
+}
+.hero-subtitle {
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+
+.hero-btn {
+  margin-top: 1rem !important;
+ 
+}
+.premium-heading{
+
+  font-size:20px !important;
+}
+
+}
+
+@media screen and (min-width: 680px) and (max-width: 800px) {
+  
+  .hero-title {
+    font-size:29px !important;
+  }
+  .hero-title-bottom {
+    font-size: 22px !important;
+    line-height: 27px !important;
+  
+  
+  }
+  .hero-title-first{
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  }
+  .hero-subtitle {
+    font-family: 'Manrope', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+  }
+  
+  .hero-btn {
+    margin-top: 1rem !important;
+   
+  }
+   .hero-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0% !important;
+
+} 
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 680px) {
+  
+    .hero-title {
+      font-size:20px !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      margin-top: 10px !important;
+
+    }
+    .hero-title-bottom {
+      font-size: 18px !important;
+      line-height: 20px !important;
+    
+    
+    }
+    .hero-title-first{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    }
+    .hero-subtitle {
+      font-family: 'Manrope', sans-serif !important;
+      font-weight: 600 !important;
+      font-size: 12 !important;
+      padding-left: 7px !important;
+      padding-right: 7px !important;
+    }
+    
+    .hero-btn {
+      margin-top: 1rem !important;
+     
+    }
+     .hero-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0% !important;
+  
+  } 
+  .premium-heading{
+    
+    font-size:18px !important;
+  }
+  .padding-around{
+    padding: 2px !important;
+  }
+    }
+
+
+    .certification-title{
+      color: rgba(255, 255, 255, 0.683);
+      font-family: 'Manrope', sans-serif !important;
+      font-weight: 500 !important;
+    }
+
+    .certification-subtitle{
+      color: rgba(255, 255, 255, 0.765);
+      font-family: 'Manrope', sans-serif !important;
+      font-weight: 500 !important;
+    }
+
+    .card-title-item{
+      font-family: 'Manrope', sans-serif !important;
+ color: rgba(255, 255, 255, 0.833);
+ font-family: 500 !important;
+    }
+
+
+    .card-title-item-sub{
+      font-family: 'Manrope', sans-serif !important;
+ color: #999999;
+ font-family: 500 !important;
+    }
+
+    .card-title-item-description{
+      font-family: 'Manrope', sans-serif !important;
+ color: #999999;
+ font-family: 500 !important;
+    }

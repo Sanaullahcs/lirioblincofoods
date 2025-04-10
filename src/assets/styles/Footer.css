@@ -1,0 +1,85 @@
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+/* Apply Marope font to all footer elements */
+.footer {
+  background-color: #1A1A1A !important;
+  color: white !important;
+  padding: 40px 0 !important;
+  font-family: 'Marope', sans-serif !important; /* Apply font to entire footer */
+}
+
+.footer-title {
+  font-weight: 600 !important;
+  margin-bottom: 10px !important;
+  font-size: 35px !important;
+}
+
+.footer-text {
+  margin-bottom: 15px !important;
+  font-family: 'Manrope', sans-serif !important;
+  color: rgba(255, 255, 255, 0.763) !important;
+
+}
+
+.footer-subtitle {
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #777777 !important;
+  font-family: 'Manrope', sans-serif !important;
+
+
+}
+
+.subscribe-box {
+  margin-top: 10px !important;
+}
+
+.email-input .MuiOutlinedInput-root {
+  border-radius: 25px !important;
+}
+
+.certifications {
+  margin-top: 20px !important;
+  display: flex !important;
+  gap: 15px !important;
+}
+
+.cert-img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  margin-top: 40px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border-top: 1px solid #333 !important;
+  padding-top: 10px !important;
+  flex-wrap: wrap !important; /* Allow wrapping for smaller screens */
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex !important;
+  gap: 20px !important;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .footer-bottom {
+      flex-direction: column !important;
+      text-align: center !important;
+  }
+
+  .footer-links {
+      order: -1 !important; /* Move links above copyright */
+      margin-bottom: 10px !important;
+  }
+}

@@ -1,0 +1,130 @@
+/* Reset body margins */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: transparent !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Manrope', sans-serif !important;
+
+    color: black !important;
+  }
+  
+  /* Navbar Container */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+     color: black !important;
+  }
+  
+  /* Logo with Left Margin */
+  .navbar-logo {
+    height: 40px;
+    margin-left: 30px; /* Increased space from left */
+  }
+  
+  .nav-links {
+    display: flex;
+    background: rgba(228, 226, 215, 0.9); /* Adjusted to match extracted color */
+    padding: 4px 5px;
+        border-radius: 30px;
+    gap: 10px;
+    margin-right: 30px; /* Increased space from right */
+    font-family: 'Manrope', sans-serif !important;
+    color: black !important;
+}
+
+  
+  /* Default Button Style */
+  .nav-links button {
+    font-size: 1rem;
+    text-transform: none;
+    border-radius: 20px;
+    padding: 4px 5px;
+    transition: all 0.3s ease;
+    color: black !important;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    font-family: 'Manrope', sans-serif !important;
+
+  }
+  
+  /* Home Icon (Only visible when active) */
+  .home-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Active Button */
+  .nav-links .active {
+    background: black !important;
+    color: white !important;
+    font-weight: 500;
+    border-radius: 20px;
+    font-family: 'Manrope', sans-serif !important;
+    text-transform: capitalize !important;
+    padding: 4px 15px !important;
+  }
+  
+  /* Hover Effect */
+  .nav-links button:hover {
+    background: black;
+    color: white;
+    font-family: 'Manrope', sans-serif !important;
+
+  }
+  
+  /* Drawer Styling */
+  .drawer-container {
+    width: 250px;
+    background: white;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  /* Drawer List Items */
+  .drawer-container .MuiListItem-root {
+    padding: 15px 20px;
+    font-size: 1rem;
+    text-transform: none;
+    color: black;
+    transition: all 0.3s ease;
+  }
+  
+  /* Drawer List Items Hover */
+  .drawer-container .MuiListItem-root:hover {
+    background: #f5f5f5;
+  }
+  
+  /* Menu Icon (Hidden on Desktop) */
+  .menu-icon {
+    display: none !important;
+  }
+  
+  /* Show Menu Icon Only on Mobile */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; /* Hide nav links on mobile */
+    }
+    .menu-icon {
+      display: block !important;
+    }
+  }
+  
